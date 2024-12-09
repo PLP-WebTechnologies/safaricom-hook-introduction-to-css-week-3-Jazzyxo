@@ -1,0 +1,52 @@
+/* External CSS */
+
+body {
+    background-color: #f9f9f9; /* Change the background color of the webpage */
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue; /* Hover effect for links */
+    text-decoration: underline;
+}
+/* Basic Styling Properties */
+
+/* Colors */
+h1 {
+    color: darkred;
+    background-color: lightgray;
+}
+
+/* Font Styles */
+p {
+    font-family: "Georgia", serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* Card Component */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px; /* Padding inside the card */
+    margin: 20px; /* Margin around the card */
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
